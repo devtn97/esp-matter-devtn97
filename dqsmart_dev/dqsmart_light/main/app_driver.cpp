@@ -236,7 +236,7 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle, uint16_
         }
     }
 #else
-        if(endpoint_id == light_endpoint_id)
+    if(endpoint_id == light_endpoint_id)
     {
         if(cluster_id == OnOff::Id)
         {
